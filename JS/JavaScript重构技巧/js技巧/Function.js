@@ -2,7 +2,7 @@
  * @Author       : 李才人
  * @Date         : 2020-06-20 14:50:37
  * @LastEditors  : 李才人(7737841@qq.com)
- * @LastEditTime : 2020-06-20 16:35:55
+ * @LastEditTime : 2020-06-20 18:04:26
  * @FilePath     : /blog/JS/JavaScript重构技巧/函数function/Function.js
  */ 
 
@@ -38,6 +38,8 @@ const winnerExists = () => {
       remainingPlayers === 1 ||
       remainingPlayers === 0
 }
+const winnerExists = () => score === 100 || remainingPlayers === 1 || remainingPlayers === 0;
+
 if (winnerExists()) quitGame();
 
 /** 
@@ -80,3 +82,4 @@ const val = map.get('a')
 // * Map优于对象的一个好处是，我们可以将数字，布尔值或对象等其他值用作键。而对象只能将字符串或symbol作为键。
 
 // 原文：https://levelup.gitconnected.com/javascript-refactoring-tips-making-functions-clearer-and-cleaner-c568c299cbb2
+
