@@ -2,8 +2,8 @@
  * @Author       : 李才人
  * @Date         : 2020-06-20 14:50:37
  * @LastEditors  : 李才人(7737841@qq.com)
- * @LastEditTime : 2020-06-22 08:54:31
- * @FilePath     : /blog/JS/JavaScript重构技巧/if_else.js
+ * @LastEditTime : 2020-08-18 10:27:17
+ * @FilePath     : /femo-unity-chartd:/workspace/github/blog/JS/JavaScript重构技巧/js技巧/if_else.js
  */ 
 
 /**
@@ -143,7 +143,7 @@ const testSwitch = breed => {
   }
 }
  // ~ After
- const dogSwitch = (breed) => ({
+ const dogSwitch = breed => ({
   "border": "Border Collies are good boys and girls.",
   "pitbull": "Pit Bulls are good boys and girls.",
   "german": "German Shepherds are good boys and girls.",  
