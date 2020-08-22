@@ -2,7 +2,7 @@
  * @Author       : 李才人
  * @Date         : 2020-08-20 10:58:15
  * @LastEditors  : 李才人(7737841@qq.com)
- * @LastEditTime : 2020-08-20 11:17:37
+ * @LastEditTime : 2020-08-22 21:06:04
  * @FilePath     : /blog/JS/JavaScript重构技巧/js技巧/Vue中如何避免在动态绑定类出现空类的情况.md
 -->
 * 传递空字符串，这可能会导致 DOM 输出中的类为空。在三元运算符中，我们可以返回"null"，这可以确保 DOM 中没有空类🌟
