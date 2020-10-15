@@ -1,3 +1,10 @@
+/*
+ * @Author       : 李才人
+ * @Date         : 2020-08-22 20:21:45
+ * @LastEditors  : 李才人(7737841@qq.com)
+ * @LastEditTime : 2020-08-31 10:46:38
+ * @FilePath     : /EvernoteWeb/Fabricjs笔记系列/fabric.js/example01/demo2/script.js
+ */
 var canvas = new fabric.Canvas('main');
 
 var rect = new fabric.Rect({
@@ -24,6 +31,4 @@ var triangle = new fabric.Triangle({
     top: 300
 })
 
-canvas.add(rect);
-canvas.add(circle);
-canvas.add(triangle);
+canvas.add(rect,circle, triangle);
